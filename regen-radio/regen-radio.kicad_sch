@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Regen Radio")
+    (date "2024-01-28")
+    (rev "0.0.1")
+    (company "µHenry Radio Club")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Audio:LM386" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 1.27 7.62 0)
@@ -1944,11 +1951,11 @@
     (property "Datasheet" "~" (at 49.53 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4c88a4eb-0f22-4b37-8bd7-6ed50d1fa005))
-    (pin "2" (uuid 27df2767-ab93-41a1-b090-77ee8c320c9f))
-    (pin "3" (uuid 3d4caac0-c20d-4efc-aa31-9147343d9da0))
-    (pin "4" (uuid 9ae3f25b-79ad-4716-9050-e91ac09e2411))
-    (pin "5" (uuid 19e92973-02a5-4ed5-819f-540a0a501131))
+    (pin "1" (uuid 719f98b6-2e83-4e37-9da5-11cb5baca834))
+    (pin "2" (uuid 108782bb-bccb-47f9-9bef-dccf0c1d8518))
+    (pin "3" (uuid b2912d64-71a9-40fd-a17a-de04f6794ac1))
+    (pin "4" (uuid fdb262fb-ac1c-4084-ad7f-f6cbb92f73b5))
+    (pin "5" (uuid 35d58e9b-64d1-45b0-ab99-9108c681c6f3))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -1978,8 +1985,8 @@
     (property "Datasheet" "~" (at 104.14 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb5964f9-f6e5-445b-83e2-050b23a0ff9a))
-    (pin "2" (uuid 71a0759e-e167-4a3e-8703-f6a3019f86ee))
+    (pin "1" (uuid 63e73169-469f-448a-b1b2-1500a573e738))
+    (pin "2" (uuid e3d69c4e-8e5b-424d-a740-2755ff0693e6))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2009,8 +2016,8 @@
     (property "Datasheet" "~" (at 154.94 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 73d72e18-2d58-4c83-ba01-d6c832c626d2))
-    (pin "2" (uuid 8ead4066-23a6-4abb-83d2-15f4375bc9b3))
+    (pin "1" (uuid 52946d0f-95e6-4f28-b8d8-b517db24b669))
+    (pin "2" (uuid ea343e7e-b000-4b5b-9274-70d61993767e))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2040,8 +2047,8 @@
     (property "Datasheet" "~" (at 107.95 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b5530438-76eb-41f1-892b-77d6ea7ccb62))
-    (pin "2" (uuid 3feb6a44-213e-40c8-9749-cbc5e19f83b9))
+    (pin "1" (uuid 2fe606fd-a195-4929-b559-e9b595b3e8b5))
+    (pin "2" (uuid 623e871d-64bd-4061-ab96-0b5af5d223ab))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2071,8 +2078,8 @@
     (property "Datasheet" "~" (at 184.15 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 60a1c985-fef6-4618-82fb-a36fb8a98ba9))
-    (pin "2" (uuid e661d975-40f9-4063-86dc-567275e6e573))
+    (pin "1" (uuid 1178888b-bbd5-43b1-9978-3b6714553e45))
+    (pin "2" (uuid e60d2d51-7a7c-4627-9ca3-c296a2f176f6))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2131,7 +2138,7 @@
     (property "Datasheet" "" (at 154.94 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 620f885b-bd25-426c-8c49-9b80e8b0a7fc))
+    (pin "1" (uuid aa1e89ea-62a1-48ac-98f7-ea76d5d2ced7))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2191,8 +2198,8 @@
     (property "Datasheet" "~" (at 97.79 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 12aaee19-ebc7-4036-a809-85fd39eb063a))
-    (pin "2" (uuid 8f7388b5-0b08-48f2-8314-72b21ab7bae1))
+    (pin "1" (uuid a928dc38-1991-4a14-ad03-6f87507d8e35))
+    (pin "2" (uuid 8434e577-ec98-43ca-ab24-bee7c61d60db))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2222,7 +2229,7 @@
     (property "Datasheet" "" (at 142.24 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8e26a0f8-2579-4a73-9f8c-f56cb1f42c40))
+    (pin "1" (uuid 40a0d246-7f8c-4637-9a34-b07a8feb269f))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2252,8 +2259,8 @@
     (property "Datasheet" "~" (at 128.27 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c920d0b7-4441-489c-9af0-39e82f263a2d))
-    (pin "2" (uuid 3b6c5216-5506-4638-bf1c-cc79374bb5d7))
+    (pin "1" (uuid 6a9bff43-79ff-4e9a-93f3-80a0217086d3))
+    (pin "2" (uuid 8aabba4c-6166-4f6d-b8c2-7a6a0cc08aca))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2314,7 +2321,7 @@
     (property "Datasheet" "" (at 60.96 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 95a90036-d1fd-456e-9584-fa255a232628))
+    (pin "1" (uuid bc5da1be-4dfa-4b03-93f4-f4171a2a4f33))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2344,8 +2351,8 @@
     (property "Datasheet" "~" (at 86.36 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1e35b931-a31e-43f0-a2b8-85d3d5c4522c))
-    (pin "2" (uuid 1c13913f-e006-475f-bd6d-530009b8194a))
+    (pin "1" (uuid 6b6b85a2-095d-4c6d-bf6e-070eef3a0149))
+    (pin "2" (uuid 8381f4d9-7ef3-4fb0-9657-63199d1be135))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2404,7 +2411,7 @@
     (property "Datasheet" "" (at 91.44 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 517f5be7-c54a-480b-a6b4-494399c6b5dc))
+    (pin "1" (uuid 2c5a0fda-3bec-4cff-a53d-9bd73d050859))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2496,8 +2503,8 @@
     (property "Datasheet" "~" (at 76.2 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bc914671-a5a7-4f33-9e30-f94d38c9409a))
-    (pin "2" (uuid 61adf619-9a46-4ffa-a45f-0cec095c136a))
+    (pin "1" (uuid 5f39940c-ec7d-4fc4-94c6-073a2f87e945))
+    (pin "2" (uuid 2d8d0b0f-64d2-4468-a7c9-983ac870d16e))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2522,7 +2529,7 @@
     (property "Datasheet" "" (at 121.92 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 03b787e4-d596-4165-a38b-8a36c96a2676))
+    (pin "1" (uuid b47eb17f-0a19-466e-93be-74db849debc0))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2552,8 +2559,8 @@
     (property "Datasheet" "~" (at 190.5 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3c5f95b0-7a15-4ea6-ada9-ed307d7a1a67))
-    (pin "2" (uuid c46dd376-90fa-4456-959e-2903cad7554d))
+    (pin "1" (uuid 7d967724-02c2-4087-a832-4c6a9effada1))
+    (pin "2" (uuid 776dc184-ad33-43a1-8df1-c625695ef701))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2583,8 +2590,8 @@
     (property "Datasheet" "~" (at 165.1 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 49c522aa-08ad-4c7b-adae-2eaafaacf666))
-    (pin "2" (uuid f2e6c625-3657-4e6c-a275-150d0669109a))
+    (pin "1" (uuid ceafcc32-d588-4b58-a9d8-6daabd14db0e))
+    (pin "2" (uuid f0445a17-1356-432b-b933-c6b13c88e28b))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2602,10 +2609,10 @@
   (symbol (lib_id "Device:R_US") (at 214.63 90.17 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c51068a-d8f4-4a9e-b3c5-16f641c2bee6)
-    (property "Reference" "R11" (at 213.36 88.9 90)
+    (property "Reference" "R11" (at 218.44 92.71 90)
       (effects (font (size 1.4224 1.209)) (justify right top))
     )
-    (property "Value" "10R" (at 215.9 88.9 90)
+    (property "Value" "10R" (at 218.44 87.63 90)
       (effects (font (size 1.4224 1.209)) (justify right top))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" (at 213.614 89.916 90)
@@ -2645,8 +2652,8 @@
     (property "Datasheet" "~" (at 76.2 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b405df8-4b58-489c-9863-87f1b7c37ced))
-    (pin "2" (uuid df01f6a1-9dee-41d8-8afa-f970d7682723))
+    (pin "1" (uuid 6aff98d8-304e-4790-9aa2-eefdd0a586f8))
+    (pin "2" (uuid c67ad8b5-5b00-4e27-9aab-c4fcbf22c1a1))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2767,8 +2774,8 @@
     (property "Datasheet" "~" (at 76.2 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c3002bec-63c5-4798-90f5-9a7b2bd50369))
-    (pin "2" (uuid f8bff80e-8490-484a-9e64-6c2a5645d9a9))
+    (pin "1" (uuid b6d0c6da-8c5b-46dc-896e-ae8b82049718))
+    (pin "2" (uuid e1e70538-012b-4f41-ac2c-a222a278eb15))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2798,8 +2805,8 @@
     (property "Datasheet" "~" (at 121.92 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5fe6fd56-2710-4bfe-81d8-241c629f58be))
-    (pin "2" (uuid 4870edeb-9507-4707-aeac-b35330e17c15))
+    (pin "1" (uuid a36cb15a-cc86-4e23-9d86-dbe5d8ce2553))
+    (pin "2" (uuid 8eb71fb3-09d6-42ef-add2-847406b8d227))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2829,8 +2836,8 @@
     (property "Datasheet" "~" (at 142.24 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf554d56-9ebd-45d2-be86-e6fb63617548))
-    (pin "2" (uuid d5ea21fa-59aa-43b8-8920-fb345302c4e8))
+    (pin "1" (uuid ce482de3-7fd1-43c1-80c8-95329bcd9792))
+    (pin "2" (uuid 5fe2efed-6e84-4c18-9d90-0271593e947a))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2891,8 +2898,8 @@
     (property "Datasheet" "~" (at 97.79 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 713fa1bc-1ae1-4d84-b42e-1f8e1d51323b))
-    (pin "2" (uuid 70167fc0-4ab9-4a7f-9d42-967e50ac7c56))
+    (pin "1" (uuid 236d5400-e884-4491-85c4-2a6c5ecebde8))
+    (pin "2" (uuid f3cd2fdb-2de5-4679-afde-8567791dc86c))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2922,8 +2929,8 @@
     (property "Datasheet" "~" (at 91.44 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 51d2a622-e62c-4e42-a67e-33da2715bcc0))
-    (pin "2" (uuid e3f81c04-3a05-4324-b73e-d793566406e1))
+    (pin "1" (uuid 33806926-423e-4ee8-89dd-318eed6c531d))
+    (pin "2" (uuid 6a6435c2-fe78-4234-8be2-132d30644392))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -2953,7 +2960,7 @@
     (property "Datasheet" "~" (at 40.64 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bbf4f254-e65a-4c98-b02e-75e7661b232d))
+    (pin "1" (uuid e6648177-fa6e-45e2-b4df-fd8a93f1e3e4))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3009,8 +3016,8 @@
     (property "Datasheet" "~" (at 60.96 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1e8ddcfb-3f64-4c7e-9829-3b55ae56c8e6))
-    (pin "2" (uuid 2b0571d9-c54d-40d5-94dd-4c03298ded30))
+    (pin "1" (uuid 74d53fbd-5fe3-4977-adfa-012e1ca5cc50))
+    (pin "2" (uuid ddfffd62-8265-42aa-a5f9-3fc0e3d98b70))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3040,8 +3047,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf" (at 59.69 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a214c2d5-7633-4a05-9036-f00e1f34470e))
-    (pin "2" (uuid ee901132-7482-4d88-b73f-5b6111882023))
+    (pin "1" (uuid 82abd405-ae4a-4bb8-a616-8d1e4caa9d48))
+    (pin "2" (uuid f5ae1a1a-8c0c-4853-a145-8eeca67e5510))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3071,7 +3078,7 @@
     (property "Datasheet" "" (at 33.02 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 369a4a18-be67-430f-ac32-e0905e9e3bcc))
+    (pin "1" (uuid 7a81e3fd-fd22-4908-b397-800aade15530))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3096,7 +3103,7 @@
     (property "Datasheet" "" (at 60.96 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 96294661-6513-4fe9-8ebf-fd9a19d75b0c))
+    (pin "1" (uuid 6016b0f2-1ada-4355-bb89-2f19f9adbb83))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3126,7 +3133,7 @@
     (property "Datasheet" "" (at 107.95 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eef3e078-97bf-4fef-9c56-32d9deba504a))
+    (pin "1" (uuid fdfde875-86a7-4d6e-94b5-463bd26185f3))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3187,7 +3194,7 @@
     (property "Datasheet" "" (at 76.2 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 51d3a08b-f353-4772-9a56-85375e424dd9))
+    (pin "1" (uuid c17c439c-feb9-4c40-a598-f848f0ee8377))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3246,7 +3253,7 @@
     (property "Datasheet" "" (at 97.79 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2816f647-de1c-4a37-8371-64a23331c712))
+    (pin "1" (uuid 3da7cb13-6364-4bf7-a4ee-018c7deae33b))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3282,8 +3289,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 142.24 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6cb18933-ff96-4784-9a03-13e97accb65f))
-    (pin "2" (uuid a8541506-bb6d-403a-91d7-8de357b73585))
+    (pin "1" (uuid 1c92f4ad-0d3f-4b79-842e-9265eef58aa6))
+    (pin "2" (uuid c3334da3-1588-4bb8-8ef8-3f3516ebc5be))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3313,8 +3320,8 @@
     (property "Datasheet" "~" (at 154.94 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 12b00b43-af20-4e88-b488-8a0a5bb098c5))
-    (pin "2" (uuid d85a8e8b-a6fd-44c8-932f-9b436ba5bfe8))
+    (pin "1" (uuid e38b8243-3c25-4adf-b41f-87c316fa5b69))
+    (pin "2" (uuid 9c045056-776a-4aed-b990-59fe877a1b99))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3442,8 +3449,8 @@
     (property "Datasheet" "~" (at 41.91 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0d68c56d-1a05-487c-b633-14dd186a1d96))
-    (pin "2" (uuid afe8a683-1df9-4f6b-a181-f8ecfadca2f5))
+    (pin "1" (uuid 8af744dd-a19e-47b9-9161-1d59033457ca))
+    (pin "2" (uuid e5dbe03e-f628-49bd-acc1-16aca4d8e800))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3468,9 +3475,9 @@
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" (at 119.38 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 24a589e4-25d0-49b9-a047-3815322b736e))
-    (pin "2" (uuid 235d30a6-9864-4143-8bfd-55d9db125e90))
-    (pin "3" (uuid 53fb1014-69e8-47e0-b40c-a6f622925e7c))
+    (pin "1" (uuid 670c2f58-4ed3-469d-86ff-c79ee56c6457))
+    (pin "2" (uuid 2b7918c2-deb4-4a1d-8855-653b7c2880ee))
+    (pin "3" (uuid 2a45f13c-ff45-4fda-b8ac-b391cce7351b))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3500,7 +3507,7 @@
     (property "Datasheet" "~" (at 184.15 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 13839142-ac48-4257-8953-bf3c0e036dd0))
+    (pin "1" (uuid d1abc724-4804-43ce-91a1-c96904697707))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3561,7 +3568,7 @@
     (property "Datasheet" "" (at 45.72 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 154e1556-b66a-457a-816a-0b59abc8780d))
+    (pin "1" (uuid 4774657e-bffa-47f4-85b6-48bc9eb6efcd))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3586,7 +3593,7 @@
     (property "Datasheet" "" (at 33.02 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c5a746b3-2a65-44ae-b79f-8f768ab04c30))
+    (pin "1" (uuid 24dea709-2065-4f0d-97ed-fb71ecf964c5))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3616,7 +3623,7 @@
     (property "Datasheet" "" (at 49.53 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 393b5b0b-a377-4792-89b5-8f505f456226))
+    (pin "1" (uuid 81140a8a-2a57-4c41-a501-6bf48d10688d))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3675,7 +3682,7 @@
     (property "Datasheet" "" (at 104.14 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5404b235-9b8d-40fb-a303-3894845c657c))
+    (pin "1" (uuid b66b2f12-00b5-4914-95e2-7541e604a123))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3705,7 +3712,7 @@
     (property "Datasheet" "" (at 86.36 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b7dee5fc-91ef-41a6-ac85-69be5dad9cc3))
+    (pin "1" (uuid f7b08550-08d4-4d06-acff-c835621e6a4e))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3735,8 +3742,8 @@
     (property "Datasheet" "~" (at 66.04 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7d36e818-eca0-4308-8de2-7a021cbdf642))
-    (pin "2" (uuid 081f2559-19ce-4195-83f6-35a7c9ced583))
+    (pin "1" (uuid 35f4d0ee-5fa2-460b-95ad-065c563bc81d))
+    (pin "2" (uuid 70689029-c0eb-4b43-90de-c457578018b3))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3826,7 +3833,7 @@
     (property "Datasheet" "" (at 142.24 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 735388c5-00a1-4c70-90ac-e86bf9fd61b7))
+    (pin "1" (uuid c0dde9a0-9927-4f28-bb5e-ced5358322ee))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3886,7 +3893,7 @@
     (property "Datasheet" "~" (at 40.64 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f81bfb5a-6de0-4f0d-aa33-a37e68da49ab))
+    (pin "1" (uuid f3b74f0b-363d-471c-914f-5f230a400bab))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3942,9 +3949,9 @@
     (property "Datasheet" "~" (at 76.2 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 641b9903-1d07-47db-8923-b3542aa0e8f4))
-    (pin "2" (uuid 27f2eb62-158d-430f-884a-9edb003fd402))
-    (pin "3" (uuid a51374d0-0257-4f32-8fe5-281fc1aec70c))
+    (pin "1" (uuid 21430a08-2e52-4223-9d34-61dfadea6f54))
+    (pin "2" (uuid 6f065515-5097-41bb-b923-f13a7002c126))
+    (pin "3" (uuid 8faff3c7-bb82-48d1-a7ce-a15b01d3949a))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -3974,9 +3981,9 @@
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" (at 83.82 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid c1bf8014-67d3-43aa-8c61-296e51463a23))
-    (pin "2" (uuid b3b165ad-d122-414f-955c-8717360e1005))
-    (pin "3" (uuid 2f426bfc-eacd-4e2c-9a0d-a89c82964cc5))
+    (pin "1" (uuid 79229316-7f4d-4452-8859-67159c6bddf3))
+    (pin "2" (uuid dc6d9920-de57-45e3-8b9c-9cb322a454cb))
+    (pin "3" (uuid 6615f46c-0778-455b-b552-8480f3338605))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -4006,10 +4013,10 @@
     (property "Datasheet" "~" (at 132.08 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9be78aa4-768f-4ec9-9b42-d37ecc992018))
-    (pin "2" (uuid 292b600f-2e54-4fc7-960f-07f06e1cc49b))
-    (pin "3" (uuid 80f89632-5c63-4ce2-9928-ec285ce76ed8))
-    (pin "4" (uuid 988e7d2f-7478-4b4a-a95c-7bdc26029ff3))
+    (pin "1" (uuid 543d407f-a3d7-42bc-8faa-d9e10bc1f3d3))
+    (pin "2" (uuid 6900f811-f402-4418-aa86-75905eab23ba))
+    (pin "3" (uuid d5355ec4-8f24-4060-83ae-65251ac21903))
+    (pin "4" (uuid d9ab9458-1570-4a59-b36c-6b44f0dcf926))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -4039,8 +4046,8 @@
     (property "Datasheet" "~" (at 114.3 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a335451a-10fc-4838-a818-477ab3c10e81))
-    (pin "2" (uuid e9e69941-f70e-4a1a-9a79-a235a769682c))
+    (pin "1" (uuid 7dd542f1-f7aa-4f57-a2b4-e46d6e1a4ccf))
+    (pin "2" (uuid 4ee536d6-00b8-4aba-9136-a11c47245240))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -4070,7 +4077,7 @@
     (property "Datasheet" "" (at 59.69 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 78c74797-acac-40bd-a813-819d342267d7))
+    (pin "1" (uuid d661d30d-70f4-4a4e-9a60-867b490e44ee))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -4100,8 +4107,8 @@
     (property "Datasheet" "~" (at 49.53 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e5bf41ec-bb0e-4c00-ba68-a9f9e84e1d10))
-    (pin "2" (uuid afb5a3b1-6b6a-47d9-857c-4cc693f2c57a))
+    (pin "1" (uuid cc940981-a2b3-4464-b332-44e728b10781))
+    (pin "2" (uuid 80ee5ec4-c856-430c-9eb0-7319ac423000))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -4131,7 +4138,7 @@
     (property "Datasheet" "" (at 45.72 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 639cd11a-5a5c-494a-be9c-207538ff67f6))
+    (pin "1" (uuid b88290b6-9fff-47a9-8c79-684d06330f6d))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
@@ -4161,8 +4168,8 @@
     (property "Datasheet" "~" (at 33.02 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 456d98ca-02f0-47dc-b8b1-d33528cf9d3d))
-    (pin "2" (uuid 94de75dd-0075-4f31-9b10-90492b451fc0))
+    (pin "1" (uuid 5a3c3af4-eb23-465d-a246-7871476bf113))
+    (pin "2" (uuid 94b48978-aac6-4316-8199-b9851328b64c))
     (instances
       (project "regen-radio"
         (path "/5576d73e-3837-49c5-9afb-da68809070f0"
