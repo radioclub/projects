@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "radio")(type "KiCad")(uri "/Users/plus/code/radio-club/radio-projects/library/symbols/radio.kicad_sym")(options "")(descr ""))
+  (lib (name "radio")(type "KiCad")(uri "${KIPRJMOD}/../library/symbols/radio.kicad_sym")(options "")(descr ""))
 )
