@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "radio")(type "KiCad")(uri "${KIPRJMOD}/../library/footprints/radio.pretty")(options "")(descr ""))
+)
